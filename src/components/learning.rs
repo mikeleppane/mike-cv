@@ -136,11 +136,11 @@ pub fn ContinuousLearning() -> impl IntoView {
                                         </div>
                                     </div>
                                     <p class="text-sm text-gray-600 mb-3">{platform.description}</p>
-                                    {if let Some(url) = &platform.url {
+                                    {if platform.url.is_some() {
                                         view! {
                                             <span>"View My O'Reilly Playlists:"</span>
                                             <a
-                                                href=url
+                                                href="https://learning.oreilly.com/playlists/c6532a58-5bb4-4ca6-803b-25879d046ed4"
                                                 target="_blank"
                                                 rel="noopener noreferrer"
                                                 class="inline-flex items-center text-sm text-amber-700 hover:text-amber-800 font-medium"
@@ -159,7 +159,7 @@ pub fn ContinuousLearning() -> impl IntoView {
                                                 </svg>
                                             </a>
                                             <a
-                                                href=url
+                                                href="https://learning.oreilly.com/playlists/32e08149-c20b-4302-bb63-9be25b642e1c"
                                                 target="_blank"
                                                 rel="noopener noreferrer"
                                                 class="inline-flex items-center text-sm text-amber-700 hover:text-amber-800 font-medium"
@@ -178,7 +178,7 @@ pub fn ContinuousLearning() -> impl IntoView {
                                                 </svg>
                                             </a>
                                             <a
-                                                href=url
+                                                href="https://learning.oreilly.com/playlists/d0920989-49cd-483d-98c8-ccbed8f601de"
                                                 target="_blank"
                                                 rel="noopener noreferrer"
                                                 class="inline-flex items-center text-sm text-amber-700 hover:text-amber-800 font-medium"
@@ -197,7 +197,7 @@ pub fn ContinuousLearning() -> impl IntoView {
                                                 </svg>
                                             </a>
                                             <a
-                                                href=url
+                                                href="https://learning.oreilly.com/playlists/afbda73b-0cef-4858-bf1f-7ffd7ace7b25"
                                                 target="_blank"
                                                 rel="noopener noreferrer"
                                                 class="inline-flex items-center text-sm text-amber-700 hover:text-amber-800 font-medium"
@@ -216,7 +216,7 @@ pub fn ContinuousLearning() -> impl IntoView {
                                                 </svg>
                                             </a>
                                             <a
-                                                href=url
+                                                href="https://learning.oreilly.com/playlists/4bb46fb2-8b27-42ba-877e-f9d2f7d85879"
                                                 target="_blank"
                                                 rel="noopener noreferrer"
                                                 class="inline-flex items-center text-sm text-amber-700 hover:text-amber-800 font-medium"
@@ -235,7 +235,7 @@ pub fn ContinuousLearning() -> impl IntoView {
                                                 </svg>
                                             </a>
                                             <a
-                                                href=url
+                                                href="https://learning.oreilly.com/playlists/9960f764-8cd7-4ceb-a69b-6bbbdbdda115"
                                                 target="_blank"
                                                 rel="noopener noreferrer"
                                                 class="inline-flex items-center text-sm text-amber-700 hover:text-amber-800 font-medium"
@@ -254,7 +254,7 @@ pub fn ContinuousLearning() -> impl IntoView {
                                                 </svg>
                                             </a>
                                             <a
-                                                href=url
+                                                href="https://learning.oreilly.com/playlists/1704292b-a20a-4897-a975-687ad32c15a6"
                                                 target="_blank"
                                                 rel="noopener noreferrer"
                                                 class="inline-flex items-center text-sm text-amber-700 hover:text-amber-800 font-medium"
