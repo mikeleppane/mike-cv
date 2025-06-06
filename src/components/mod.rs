@@ -1,0 +1,10 @@
+pub mod certifications;
+pub mod education;
+pub mod experience;
+pub mod github;
+pub mod header;
+pub mod languages;
+pub mod learning;
+pub mod personal_info;
+pub mod skills;
+pub mod summary;
